@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+	<hr>
+	<div class="row justify-content-center">
+		<div class="col-lg-6 ">
+			<div class="card">
+				<div class="card-header bg-primary text-white text-center">
+					<h3>Calculator</h3>
+				</div>
+				<div class="card-body">
+					<div class="form-group">
+						<label>First Number</label>
+						<input type="text" class="form-control" id="first_number">
+					</div>
+					<div class="form-group">
+						<label>Last Number</label>
+						<input type="text" class="form-control" id="last_number">
+					</div>
+					<div class="form-group row">
+						<div class="col-lg-9">
+							<button type="submit" id="addition" class="btn btn-primary btn-sm" onclick="add()">+</button>
+							<button type="submit" id="substraction" class="btn btn-warning btn-sm" onclick="sub()">-</button>
+							<button type="submit" id="multi" class="btn btn-info btn-sm" onclick="multi()">X</button>
+							<button type="submit" id="division" class="btn btn-secondary btn-sm" onclick="div()">/</button>
+							<button type="submit" id="modulas" class="btn btn-danger btn-sm" onclick="remainder()">%</button>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Result</label>
+						<div><h4 id="result"></h4></div>
+					</div>
+				</div>
+				<div class="card-footer bg-dark text-white text-center">
+					<h3>Created By Syed Zaman Mostafiz.</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	
+	function add(){
+		var f_number = Number(document.getElementById('first_number').value);
+		var l_number = Number(document.getElementById('last_number').value);
+		var result = f_number + l_number;
+		document.getElementById('result').innerHTML = result;
+	}
+	function sub(){
+		var f_number = Number(document.getElementById('first_number').value);
+		var l_number = Number(document.getElementById('last_number').value);
+		var result = f_number - l_number;
+		document.getElementById('result').innerHTML = result;
+	}
+	function multi(){
+		var f_number = Number(document.getElementById('first_number').value);
+		var l_number = Number(document.getElementById('last_number').value);
+		var result = f_number * l_number;
+		document.getElementById('result').innerHTML = result;
+	}
+	function div(){
+		var f_number = Number(document.getElementById('first_number').value);
+		var l_number = Number(document.getElementById('last_number').value);
+		var result = f_number / l_number;
+		document.getElementById('result').innerHTML = result;
+	}
+	function remainder(){
+		var f_number = Number(document.getElementById('first_number').value);
+		var l_number = Number(document.getElementById('last_number').value);
+		var result = f_number % l_number;
+		document.getElementById('result').innerHTML = result;
+	}
+</script>
+</body>
+</html>

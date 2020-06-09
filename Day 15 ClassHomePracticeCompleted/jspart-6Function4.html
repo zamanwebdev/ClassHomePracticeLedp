@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>First Name</td>
+			<td><input type="text" name="first_name" id="firstName"></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name="last_name" id="lastName"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" name="btn" id="btn" value="Submit" onclick="makeName()"></td>
+		</tr>
+		<tr>
+			<td>Full Name:</td>
+			<td id="fullName"></td>
+		</tr>
+	</table>
+
+<script type="text/javascript">
+	function makeName(){
+		let fName = document.getElementById('firstName').value;
+		let lName = document.getElementById('lastName').value;
+		document.getElementById('fullName').innerText = fName+" "+lName;
+		// document.getElementById('fullName').innerHTML = fName+" "+lName;
+		// alert(fName+" "+lName);
+		// document.write(firstName);
+	}
+	// document.write("Hello Function");
+	// function demo(first_number,last_number){
+	// 	document.write(first_number+last_number);
+	// 	// document.write("Hello Function");
+	// }
+	// demo(1,2);
+	// document.write("<br>")
+	// demo(3,4);
+	// document.write("<br>")
+	// demo(5,6);
+
+		
+</script>
+</body>
+</html>

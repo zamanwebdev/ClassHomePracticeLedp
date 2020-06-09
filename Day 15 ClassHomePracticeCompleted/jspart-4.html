@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	// One dimensional (1-D) arrays or Linear arrays
+	// indexed Array
+	// Multi dimensional arrays
+	let i = [12,32,34,42,125,643];	
+	document.write("i[3] = "+i[3]+" and i[5] = "+i[5]+"<br>");
+	for(let number in i){
+		document.write(i[number]+" ");
+	}
+	document.write("<br>");
+	let j = ["Rohim", "Korim", "Sakib"];
+	for(let number in j){
+		document.write(j[number]+" ");
+	}
+	document.write("<br>");
+	// let data = Array();
+	let data = [];
+	data['name'] = "Syed Zaman";
+	data['city'] = "Dinajpur";
+	data['mobile'] = "01518313365";
+	document.write( data['name']+" "+data['city']+"<br>");
+	document.write( data['mobile']+"<br>");
+
+	for(let key in data){
+		document.write(data[key]+" ");
+	}
+
+
+		
+</script>
+</body>
+</html>
