@@ -1,0 +1,42 @@
+.my-nav{
+	height: 126px;
+	border-bottom: 1px solid #ccc;
+}
+.banner{
+	height: 326px;
+	border-bottom: 1px solid #ccc;
+}
+.banner-text{
+	padding-top: 100px;
+}
+.banner-text p{
+	padding: 20px;
+}
+.banner-text button{
+	width: 140px;
+}
+.project{
+	height: 506px;
+}
+.img-size{
+	height: 200px;
+	width: 100%;
+}
+.footer-top{
+	height: 400px;
+	border-bottom: 1px solid #ccc;
+	background-color: #e5e5e5;
+}
+.ft-width{
+	width: 50%;
+}
+.footer {
+    height: 226px;
+    position: relative;
+    bottom: 70px;
+}
+.box{
+	width: 150px;
+	height: 100px;
+	background-color: #cccccc;
+}

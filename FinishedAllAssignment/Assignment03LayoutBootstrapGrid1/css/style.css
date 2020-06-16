@@ -1,0 +1,30 @@
+.header-height{
+	border: 1px solid black;
+	height: 80px;
+}
+.head-height{
+	border: 1px solid black;
+	height: 300px;
+
+}
+.main-height{
+	border: 1px solid black;
+	height: 200px;
+}
+.banner-height{
+	border: 1px solid black;
+	height: 100px;
+}
+.image-height {
+    border: 1px solid black;
+    height: 100px;
+    position: absolute;
+    margin-left: 900px;
+}
+.ex-height {
+    border: 1px solid black;
+    height: 100px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 900px;
+}
