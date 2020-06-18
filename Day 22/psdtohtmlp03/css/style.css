@@ -1,0 +1,57 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+.my-nav{
+	background-color: #585858;
+}
+
+.active a{
+	color: #bce02b !important;
+}
+
+.active a:hover{
+	color: #ffffff !important;
+}
+
+nav ul li a:hover{
+	color: #bce02b !important;
+}
+
+nav ul li a i{
+	color: #bce02b;
+}
+
+.slider{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
+
+/*.slider-bg{
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}*/
+
+.my-slide{
+	margin-top: 100px;
+}
+
+.big-bg{
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('../images/bigbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 1200px;
+	position: relative;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #bce02b !important;
+}
