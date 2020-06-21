@@ -1,0 +1,19 @@
+.LOG
+10:04 PM 2020-06-20
+00Hour43Minutes00Seconds
+10:57 PM 2020-06-20
+01Hour01Minutes00Seconds
+11:55 PM 2020-06-20
+01Hour13Minutes00Seconds
+8:24 AM 2020-06-21
+01Hour30Minutes00Seconds
+8:52 AM 2020-06-21
+01Hour32Minutes00Seconds
+2:18 PM 2020-06-21
+01Hour44Minutes00Seconds
+2:30 PM 2020-06-21
+01Hour50Minutes00Seconds
+3:00 PM 2020-06-21
+02Hour01Minutes00Seconds
+4:17 PM 2020-06-21
+02Hour13Minutes00Seconds
