@@ -1,0 +1,27 @@
+*{
+	font-family: 'Dancing Script', cursive;
+}
+.div1{
+	width: 200px;
+	height: 200px;
+	background: radial-gradient(yellow, blue, green, rgb(232, 7, 199));
+	/*background: linear-gradient(to bottom, rgb(33, 181, 67), rgb(232, 7, 199));*/
+	/*background: linear-gradient(to right, blue,red,green);*/
+	/*background-color: blue;*/
+	margin: 50px 50px;
+	/*box-shadow: 20px -20px silver; */
+	/*box-shadow: -20px -20px silver; */
+	/*box-shadow: -20px 20px silver; */
+	box-shadow: 0px 5px 6px 0px blue; 
+	/*border: 2px solid green;*/
+	border-radius: 100px;
+	/*border-radius: 20px 50px 0 100px;*/
+	/*border-radius: 20px 50px 100px;*/
+	/*border-radius: 50%;*/
+}
+h1{
+	
+	/*font-family: arial;*/
+	color: lightblue;
+	text-shadow: 5px 2px 5px blue;
+}

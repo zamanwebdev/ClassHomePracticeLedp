@@ -1,0 +1,2 @@
+position property(static, relative, fixed, absolute)
+top, right, bottom, left

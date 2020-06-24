@@ -1,0 +1,17 @@
+.header-height{
+	border: 1px solid black;
+	height: 80px;
+}
+.menu-height{
+	border: 1px solid black;
+	height: 50px;
+
+}
+.content-height{
+	border: 1px solid black;
+	height: 200px;
+}
+.section-height{
+	border: 1px solid black;
+	height: 200px;
+}
