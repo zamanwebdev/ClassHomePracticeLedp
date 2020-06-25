@@ -1,0 +1,22 @@
+CSS Measurement Units:
+1. px(pixel) => 1 dot in screen = 1 px
+2. % => 100%
+3. em => 1 pt = 12 em
+4. pt => one point = one inch 1/72
+
+CSS Color:
+1. Hex code => black = #000000; White = #ffffff;
+2. Short Hex Code => black = #000; White = #fff;
+3. RGB => rgb(61, 109, 186)
+4. Keyword => red, green, blue
+
+Background Property
+1. Background
+2. Background Color
+3. Background Image
+4. Background Repeat 
+5. Background Position
+6. Background Attachment
+
+
+

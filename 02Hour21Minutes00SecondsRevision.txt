@@ -1,19 +1,5 @@
 .LOG
-9:11 AM 6/23/2020
-00Hour38Minutes00SecondsRevision
-4:40 PM 6/23/2020
-01Hour38Minutes00SecondsRevision
-5:43 PM 6/23/2020
-ClassHomePracticeCompleted
-9:10 PM 6/23/2020
-01Hour18Minutes00SecondsRevision
-9:22 PM 6/23/2020
-01Hour28Minutes00SecondsRevision
-12:03 AM 6/24/2020
-01Hour55Minutes00SecondsRevision
-12:21 AM 6/24/2020
-02Hour10Minutes00SecondsRevision
-12:25 AM 6/24/2020
-02Hour12Minutes00SecondsRevision
 12:40 AM 6/24/2020
 02Hour21Minutes00SecondsRevision
+4:15 PM 6/25/2020
+00Hour28Minutes00SecondsRevision

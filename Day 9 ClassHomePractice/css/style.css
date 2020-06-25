@@ -1,0 +1,93 @@
+.header{
+	height: 70px;
+}
+
+.hcolor{
+	background-color: #1b0461;
+}
+
+.hero{
+	height: 400px;
+}
+.main{
+	height: 200px;
+	background-color: #25344B;
+}
+.second{
+	height: 200px;
+}
+
+.blank{
+	height: 200px;
+}
+/*.extra{
+	width: 285px;
+	height: 100px;
+	background-color: green;
+	position: relative;
+	left: 75%;
+	top: -100px;
+}*/
+.footer{
+	height: 70px;
+	background-color: #FFD16A;
+	/*position: relative;
+	top: -100px;*/
+}
+.side{
+
+}
+.image{
+	height: 100px;
+	background-color: #BADADE;
+}
+.extra{
+	height: 100px;
+	background-color: #4EBD98;
+}
+@media screen and (min-width: 576px) and (max-width: 991px){
+	.menu{
+		position: relative;
+		top: 399px;
+		height: 370px;
+	}
+	.hero{
+		top: -370px;
+	}
+	.main{
+		position: relative;
+		left: 25%;
+		top: -370px;
+	}
+	.footer{
+		position: relative;
+		left: 25%;
+		top: -670px;
+	}
+	.extra{
+		position: relative;
+		top: -500px;
+	}
+	.image{
+		position: relative;
+		left: 75%;
+		top: -500px;
+	}
+}
+@media screen and (max-width: 575px){
+	.blank{
+		display: none;
+	}
+	.image{
+	    position: relative;
+	    top: 170px;
+	}
+	.footer{
+	    position: relative;
+	    top: -200px;
+	}
+	.extra{
+		position: relative;
+		top: -30px;
+	}
+}
