@@ -1,7 +1,0 @@
-.LOG
-1:43 PM 6/26/2020
-01Hour00Minutes00SecondsRevision.txt
-4:18 PM 6/26/2020
-01Hour26Minutes00SecondsRevision.txt
-5:29 PM 6/26/2020
-01Hour44Minutes00SecondsRevision.txt
