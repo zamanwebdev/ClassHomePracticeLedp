@@ -1,0 +1,79 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+.my-nav{
+	background-color: #333333;
+}
+.navbar-toggler{
+	border: none !important;
+}
+.bg{
+	/*background:url('../images/bg.png');*/
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('../images/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
+	/*height: 500px;*/
+}
+.bg-content{
+	position: relative;
+	text-align: center;
+}
+.bg-btn{
+	padding: 10px 30px;
+	background-color: #fa694e;
+	color: #fff;
+}
+.services{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.icon-shape{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #cccccc;
+	position: relative;
+	left: 39%;
+	border-radius: 50%;
+	transition: .10s ease-out;
+}
+.icon-shape i{
+	color: #fa694e;
+	font-size: 33px;
+	padding-top: 23px;
+}
+.icon-shape:hover{
+	background-color: #fa694e;
+}
+.icon-shape:hover i{
+	color: #fff;
+}
+.stories{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #fbfbfb;
+}
+.overlay {
+	position: absolute;
+	top: 46%;
+	left: 44%;
+	opacity: 0;
+	transition: .5s ease;
+	/*color: #fa694e;*/
+}
+.img-hover{
+	position: relative;
+}
+.img-hover:hover .overlay {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.card-img{
+		position: relative;
+		top: 25%;
+		padding: 10px; 
+	}
+}
