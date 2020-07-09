@@ -1,8 +1,9 @@
 <?php
 	require_once "../classes/Blog.php";
 	$blog = new Blog();
+	$result = '';
 	if (isset($_POST['btn'])){
-	    $blog->addBlog();
+	    $result = $blog->addBlog();
     }
 ?>
 <!DOCTYPE html>
@@ -17,6 +18,9 @@
 	<div class="container">
 		<div class="row justify-content-center mt-5">
 			<div class="col-lg-8">
+			<?php if ($result) { ?>
+				<h3 class="text-success text-center"><?php echo $result; ?></h3>
+			<?php } ?>
 				<div class="card">
 					<div class="card-header">
 						<span class="h3">Add Blog</span>
@@ -30,7 +34,7 @@
 						  </div>
 						  <div class="form-group">
 						    <label>Blog Description</label>
-						    <textarea name="description" class="form-control"></textarea>
+						    <textarea name="description" class="form-control" rows="10"></textarea>
 						  </div>
 						  <div class="form-group">
 						    <label>Blog Author Name</label>
@@ -38,7 +42,7 @@
 						  </div>
 						  <div class="form-group">
 						    <label>Blog Image</label>
-						    <input type="file" name="file" class="form-control-file"> 
+						    <input type="file" name="image" class="form-control-file"> 
 						  </div>
 						  <div class="form-group">
 						    <label>Publication Status</label>
