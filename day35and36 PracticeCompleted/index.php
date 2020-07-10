@@ -1,3 +1,9 @@
+<?php
+	require_once "classes/Blog.php";
+	$blog = new Blog();
+	$result = $blog->viewPublishedBlog();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,49 +44,25 @@
 			<p class="h1">Page Heading Secondary Text</p>
 			<div class="row">
 				<div class="col-lg-7">
-					<div class="card mb-2" style="width: 100%;">
-					  <img src="images/700x400.gif" class="card-img-top" alt="...">
-					  <div class="card-body">
-					    <h5 class="card-title">Post title</h5>
-					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					    <a href="#" class="btn btn-primary">Read More</a>
-					  </div>
-					  <div class="card-footer">
-					    	<div class="footer-copyright text-dark text-center py-3">
-		  						Post on June 6, 2020 by 
-		    					<a class="text-decoration-none" href="https://zamanwebdev.com/"> Syed Zaman Mostafiz.</a>
-		 					</div>
-					    </div>
-					</div>
-					<div class="card mb-2" style="width: 100%;">
-					  <img src="images/700x400.gif" class="card-img-top" alt="...">
-					  <div class="card-body">
-					    <h5 class="card-title">Post title</h5>
-					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					    <a href="#" class="btn btn-primary">Read More</a>
 
-					  </div>
-					  	<div class="card-footer">
-					    	<div class="footer-copyright text-dark text-center py-3">
-		  						Post on June 6, 2020 by 
-		    					<a class="text-decoration-none" href="https://zamanwebdev.com/"> Syed Zaman Mostafiz.</a>
-		 					</div>
-					    </div>
-					</div>
-					<div class="card mb-2" style="width: 100%;">
-					  <img src="images/700x400.gif" class="card-img-top" alt="...">
+				<?php while($blogs= mysqli_fetch_assoc($result)){?>
+					<div class="card mb-3" style="width: 100%;">
+					  <img src="admin/<?php echo $blogs['file'];?>" class="card-img-top" alt="...">
 					  <div class="card-body">
-					    <h5 class="card-title">Post title</h5>
-					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					    <h5 class="card-title"><?php echo $blogs['title'];?></h5>
+					    <p class="card-text"><?php echo $blogs['description'];?></p>
 					    <a href="#" class="btn btn-primary">Read More</a>
 					  </div>
 					  <div class="card-footer">
 					    	<div class="footer-copyright text-dark text-center py-3">
-		  						Post on June 6, 2020 by 
-		    					<a class="text-decoration-none" href="https://zamanwebdev.com/"> Syed Zaman Mostafiz.</a>
+		  						<?php echo $blogs['timestamp'];?>
+		    					<a class="text-decoration-none" href="https://zamanwebdev.com/"> <?php echo $blogs['author'];?></a>
 		 					</div>
 					    </div>
 					</div>
+					<?php }?>
+					
+
 				</div>
 				<div class="col-lg-5">
 					<div>

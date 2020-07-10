@@ -1,9 +1,0 @@
-.LOG
-6:40 PM 7/8/2020
-00Hour29Minutes00SecondsRevision
-7:05 PM 7/8/2020
-00Hour35Minutes00SecondsRevision.txt
-8:41 PM 7/8/2020
-00Hour37Minutes00SecondsRevision.txt
-12:06 AM 7/9/2020
-01Hour21Minutes00SecondsRevision

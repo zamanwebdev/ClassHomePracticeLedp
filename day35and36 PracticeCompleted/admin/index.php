@@ -1,3 +1,9 @@
+<?php
+	require_once "../classes/Blog.php";
+	$blog = new Blog();
+	$result = $blog->viewAllBlog();
+	
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +15,7 @@
 <body>
 	<div class="container">
 		<div class="row justify-content-center mt-5">
-			<div class="col-lg-8">
+			<div class="col-lg-10">
 				<div class="card">
 					<div class="card-header">
 						<span class="h3">Blog</span>
@@ -24,15 +30,22 @@
 								<th>Blog Author</th>
 								<th>Blog Image</th>
 								<th>Publication Status</th>
+								<th>Action</th>
 							</tr>
+							<?php $i = 1; while($blogs = mysqli_fetch_assoc($result)){?>
 							<tr>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
-								<td>1</td>
+								<td><?php echo $i++; ?></td>
+								<td><?php echo $blogs['title'];?></td>
+								<td><?php echo $blogs['description'];?></td>
+								<td><?php echo $blogs['author'];?></td>
+								<td> <img src="<?php echo $blogs['file'];?>" width="100" ></td>
+								<td><?php echo $blogs['status']==1 ? 'Published':'Unpublish';?></td>
+								<td>
+									<a href="edit-blog.php?id=<?php echo $blogs['id'];?>" class="btn btn-info btn-sm">Edit</a>
+									<a href="" class="btn btn-danger btn-sm">Delete</a>
+								</td>
 							</tr>
+							<?php }?>
 						</table>
 					</div>
 				</div>
