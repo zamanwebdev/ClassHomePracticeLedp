@@ -1,7 +1,0 @@
-.LOG
-9:11 AM 6/23/2020
-00Hour38Minutes00SecondsRevision
-4:40 PM 6/23/2020
-01Hour38Minutes00SecondsRevision
-5:43 PM 6/23/2020
-ClassHomePracticeCompleted
