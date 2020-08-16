@@ -1,0 +1,5 @@
+.LOG
+11:30 AM 8/11/2020
+01Hour42Minutes00SecondsPracticeCompleted..txt
+11:45 AM 8/11/2020
+01Hour52Minutes00SecondsPracticeCompleted..txt
